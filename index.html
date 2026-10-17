@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>48-Hour Refresh · AI graphics for Long Island businesses</title>
+<meta name="description" content="Fresh social posts, menu designs, and ad creatives for Long Island restaurants, salons, gyms, and shops, delivered in 48 hours. Get a free sample.">
+<meta name="theme-color" content="#f7f5fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f0d17" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="48h Refresh">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="appbar">
+    <button class="brand" data-go="home" aria-label="48-Hour Refresh home">
+      <img src="icons/icon-192.png" alt="" width="32" height="32">
+      <span><strong>48-Hour Refresh</strong><small>Long Island · AI graphics</small></span>
+    </button>
+    <nav class="topnav" aria-label="Main">
+      <button data-go="home">Home</button><button data-go="packages">Packages</button><button data-go="work">Examples</button><button data-go="faq">FAQ</button>
+    </nav>
+    <div class="appbar-actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle light/dark theme" title="Theme">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+      </button>
+      <button class="btn btn-sm" data-go="request">Free sample</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HOME -->
+    <section class="screen" id="screen-home" data-title="Home">
+      <div class="hero">
+        <div class="hero-copy">
+          <span class="pill">⚡ 48-hour turnaround · Nassau &amp; Long Island</span>
+          <h1>Fresh graphics for your business, <span class="grad">in 48 hours.</span></h1>
+          <p class="lead">AI-assisted social posts, menu designs, and ad creatives with short motion graphics, built for Long Island restaurants, salons, gyms, and shops.</p>
+          <div class="cta-row">
+            <button class="btn btn-lg" data-go="request" data-sample="1">Get a free sample</button>
+            <button class="btn btn-ghost btn-lg" data-go="packages">See packages</button>
+          </div>
+          <p class="fine">No contract. Send us your current flyer, menu, or post and we'll refresh one piece free.</p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="float-card fc1"><div class="mini-post"><b>WEEKEND<br>SPECIAL</b><i>2 slices + drink</i></div></div>
+          <div class="float-card fc2"><div class="mini-menu"><b>MENU</b><span></span><span></span><span></span><span></span></div></div>
+          <div class="float-card fc3"><div class="mini-ad"><b>NEW<br>CLASS</b><i>▶ 0:15</i></div></div>
+        </div>
+      </div>
+
+      <h2 class="section-title">How it works</h2>
+      <ol class="steps">
+        <li><span class="step-n">1</span><div><h3>Tell us what you need</h3><p>Send a quick request with your logo, photos you already have, and what you're promoting.</p></div></li>
+        <li><span class="step-n">2</span><div><h3>We design it in 48 hours</h3><p>We use AI tools plus a human designer to make on-brand posts, menus, or ads, sized for every platform.</p></div></li>
+        <li><span class="step-n">3</span><div><h3>Review, tweak, post</h3><p>You get ready-to-post files with a round of revisions included. Need it faster? Add 24-hour rush.</p></div></li>
+      </ol>
+
+      <h2 class="section-title">Made for local businesses</h2>
+      <div class="chips">
+        <span class="chip">🍕 Restaurants &amp; cafés</span><span class="chip">💇 Salons &amp; barbers</span><span class="chip">🏋️ Gyms &amp; studios</span><span class="chip">🛍️ Shops &amp; boutiques</span><span class="chip">🧰 Local services</span>
+      </div>
+
+      <div class="install-card" id="installCard" hidden>
+        <div><strong>Add 48-Hour Refresh to your home screen</strong><p id="installText">Open it like an app, even offline.</p></div>
+        <button class="btn btn-sm" id="installBtn">Install</button>
+        <button class="icon-btn" id="installClose" aria-label="Dismiss">✕</button>
+      </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section class="screen" id="screen-packages" data-title="Packages" hidden>
+      <h1 class="page-title">Packages</h1>
+      <p class="lead">Simple, upfront pricing. Every package ships in 48 hours.</p>
+      <div class="cards">
+        <article class="price-card">
+          <h3>Starter</h3><div class="price">~$250</div><p class="per">one-time refresh</p>
+          <ul><li>Social posts or one menu design</li><li>Sized for Instagram, Facebook &amp; Stories</li><li>1 revision round</li><li>Delivered in 48 hours</li></ul>
+          <button class="btn btn-ghost" data-pick="starter">Estimate this</button>
+        </article>
+        <article class="price-card featured">
+          <span class="badge">Most popular</span>
+          <h3>Refresh + Motion</h3><div class="price">~$400</div><p class="per">one-time refresh</p>
+          <ul><li>Everything in Starter</li><li>Ad creatives for Meta / Google</li><li>Short motion graphic (Reel/Story)</li><li>Delivered in 48 hours</li></ul>
+          <button class="btn" data-pick="motion">Estimate this</button>
+        </article>
+        <article class="price-card">
+          <h3>Always Fresh</h3><div class="price">$750–$1,200</div><p class="per">per month</p>
+          <ul><li>A steady monthly batch of new posts</li><li>Seasonal menu &amp; promo updates</li><li>Monthly ad + motion refresh</li><li>48-hour turnaround on every request</li></ul>
+          <button class="btn btn-ghost" data-pick="always">Estimate this</button>
+        </article>
+      </div>
+
+      <div class="estimator" id="estimator">
+        <h2>Quote estimator</h2>
+        <div class="seg" role="radiogroup" aria-label="Package">
+          <label><input type="radio" name="estPkg" value="starter" checked><span>Starter</span></label>
+          <label><input type="radio" name="estPkg" value="motion"><span>Refresh + Motion</span></label>
+          <label><input type="radio" name="estPkg" value="always"><span>Always Fresh</span></label>
+        </div>
+        <label class="switch"><input type="checkbox" id="estRush"><span class="track"><span class="knob"></span></span><span>24-hour rush <em>+30%</em></span></label>
+        <div class="est-out"><span>Estimated price</span><output id="estPrice">$250</output><small id="estNote">one-time</small></div>
+        <p class="fine">Estimate only. Your final quote depends on scope. The first sample is free.</p>
+        <button class="btn btn-block" id="estRequest">Request this package</button>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="screen" id="screen-work" data-title="Examples" hidden>
+      <h1 class="page-title">Example deliverables</h1>
+      <p class="lead">These are <strong>illustrative mockups</strong> of what we make. They are not real client work.</p>
+      <div class="gallery">
+        <figure class="ex">
+          <div class="ex-art ex-social"><span class="tag">EXAMPLE</span><div class="s-top">Taco Tuesday</div><div class="s-big">$2<small>tacos</small></div><div class="s-foot">All day · Dine-in &amp; takeout</div></div>
+          <figcaption><strong>Social post</strong><span>Square + Story sizes</span></figcaption>
+        </figure>
+        <figure class="ex">
+          <div class="ex-art ex-menu"><span class="tag">EXAMPLE</span><h4>Brunch Menu</h4>
+            <div class="m-row"><span>Avocado toast</span><i></i><b>12</b></div>
+            <div class="m-row"><span>Lemon pancakes</span><i></i><b>14</b></div>
+            <div class="m-row"><span>Breakfast burrito</span><i></i><b>13</b></div>
+            <div class="m-row"><span>Cold brew</span><i></i><b>5</b></div>
+          </div>
+          <figcaption><strong>Menu design</strong><span>Print + digital board</span></figcaption>
+        </figure>
+        <figure class="ex">
+          <div class="ex-art ex-ad"><span class="tag">EXAMPLE</span><div class="a-kicker">New clients</div><div class="a-big">First cut<br>20% off</div><div class="a-btn">Book now</div></div>
+          <figcaption><strong>Ad creative</strong><span>Meta / Google display</span></figcaption>
+        </figure>
+        <figure class="ex">
+          <div class="ex-art ex-motion"><span class="tag">EXAMPLE</span><div class="mo-ring"></div><div class="mo-text"><span>6AM</span><span>HIIT</span><span>CLASS</span></div><div class="mo-bar"><i></i></div></div>
+          <figcaption><strong>Motion graphic</strong><span>15-second Reel / Story</span></figcaption>
+        </figure>
+      </div>
+      <div class="cta-strip"><p>Want to see your own business refreshed?</p><button class="btn" data-go="request" data-sample="1">Get a free sample</button></div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="screen" id="screen-faq" data-title="FAQ" hidden>
+      <h1 class="page-title">FAQ</h1>
+      <div class="faq">
+        <details open><summary>What do you make?</summary><p>Graphics and media for local businesses: social media posts, menu designs, ad creatives, and short motion graphics for Reels, Stories, and ads.</p></details>
+        <details><summary>Do you build websites or do photo shoots?</summary><p><strong>No.</strong> We don't build websites and we don't do photo shoots. We work with the photos, logos, and brand materials you already have, and we can make AI-assisted visuals when you don't have photos.</p></details>
+        <details><summary>Is it really 48 hours?</summary><p>Yes. Once we have your request and materials, we deliver the first version within 48 hours. Add 24-hour rush for 30% more.</p></details>
+        <details><summary>How does the free sample work?</summary><p>Send us one existing post, flyer, or menu and we'll refresh it for free so you can see the quality before you pay anything. No obligation.</p></details>
+        <details><summary>What does "AI-assisted" mean?</summary><p>We use AI tools to move faster and explore ideas. A human designer reviews and finishes every piece so it stays on-brand and accurate.</p></details>
+        <details><summary>Where are you located?</summary><p>Valley Stream / North Woodmere in Nassau County. We work with businesses across Long Island, and everything can be handled remotely.</p></details>
+        <details><summary>How many revisions do I get?</summary><p>One round of revisions comes with every one-time package. Always Fresh clients get ongoing tweaks every month.</p></details>
+        <details><summary>How do I pay?</summary><p>We'll send a simple invoice after you approve your quote. One-time packages are paid on delivery approval, and Always Fresh is billed monthly.</p></details>
+      </div>
+    </section>
+
+    <!-- REQUEST -->
+    <section class="screen" id="screen-request" data-title="Request" hidden>
+      <h1 class="page-title">Request a free sample</h1>
+      <p class="lead">Tell us about your business. We usually reply the same day.</p>
+      <form id="reqForm" class="form" novalidate>
+        <div class="field"><label for="f-name">Your name *</label><input id="f-name" name="name" required autocomplete="name"></div>
+        <div class="field"><label for="f-biz">Business name *</label><input id="f-biz" name="business" required autocomplete="organization"></div>
+        <div class="row2">
+          <div class="field"><label for="f-email">Email *</label><input id="f-email" name="email" type="email" required autocomplete="email" inputmode="email"></div>
+          <div class="field"><label for="f-phone">Phone <span class="opt">(optional)</span></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel"></div>
+        </div>
+        <div class="row2">
+          <div class="field"><label for="f-type">Business type</label>
+            <select id="f-type" name="businessType"><option>Restaurant / café</option><option>Salon / barber / spa</option><option>Gym / fitness studio</option><option>Retail shop / boutique</option><option>Local service</option><option>Other</option></select></div>
+          <div class="field"><label for="f-pkg">Package interest</label>
+            <select id="f-pkg" name="package"><option value="Free sample only">Free sample only</option><option value="Starter (~$250)">Starter (~$250)</option><option value="Refresh + Motion (~$400)">Refresh + Motion (~$400)</option><option value="Always Fresh ($750–$1,200/mo)">Always Fresh ($750–$1,200/mo)</option><option value="Not sure yet">Not sure yet</option></select></div>
+        </div>
+        <fieldset class="field"><legend>24-hour rush (+30%)?</legend>
+          <div class="seg seg-sm"><label><input type="radio" name="rush" value="No" checked><span>No</span></label><label><input type="radio" name="rush" value="Yes"><span>Yes</span></label></div>
+        </fieldset>
+        <div class="field"><label for="f-msg">What do you need? *</label><textarea id="f-msg" name="message" rows="4" required placeholder="e.g. New fall menu + 4 Instagram posts for our pumpkin specials"></textarea></div>
+        <label class="check"><input type="checkbox" name="freeSample" id="f-sample" checked><span>Yes, I'd like a <strong>free sample</strong> first</span></label>
+        <p class="form-error" id="formError" role="alert" hidden></p>
+        <button class="btn btn-block btn-lg" type="submit" id="submitBtn">Send request</button>
+        <p class="fine" id="deliveryNote">Sending opens your email app with your request filled in. A copy is also saved on this device.</p>
+      </form>
+
+      <div class="success" id="success" hidden>
+        <div class="success-icon">✓</div>
+        <h2>Request ready!</h2>
+        <p id="successText">Your email app should open with your request filled in. Just tap send.</p>
+        <div class="cta-row"><a class="btn" id="mailAgain" href="#">Open email again</a><button class="btn btn-ghost" id="copyReq">Copy request text</button></div>
+        <button class="btn btn-ghost btn-block" id="newReq">Start a new request</button>
+      </div>
+
+      <div class="saved" id="savedWrap" hidden>
+        <h2 class="section-title">Saved on this device</h2>
+        <ul id="savedList"></ul>
+        <button class="link-btn" id="clearSaved">Clear saved requests</button>
+      </div>
+    </section>
+  </main>
+
+  <nav class="tabbar" aria-label="App tabs">
+    <button data-go="home" class="tab"><svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span>Home</span></button>
+    <button data-go="packages" class="tab"><svg viewBox="0 0 24 24"><path d="M3 7l9-4 9 4v10l-9 4-9-4zm9 5 7-3.1M12 12 5 8.9M12 12v8"/></svg><span>Packages</span></button>
+    <button data-go="work" class="tab"><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></svg><span>Examples</span></button>
+    <button data-go="faq" class="tab"><svg viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18zm-2.5-11.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14m0 3v.01"/></svg><span>FAQ</span></button>
+    <button data-go="request" class="tab tab-cta"><svg viewBox="0 0 24 24"><path d="M4 12 20 4l-4 16-4-7zm8 1 8-9"/></svg><span>Request</span></button>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <div class="sheet-backdrop" id="iosSheet" hidden>
+    <div class="sheet" role="dialog" aria-labelledby="iosTitle">
+      <h3 id="iosTitle">Install on iPhone</h3>
+      <ol><li>Tap the <strong>Share</strong> button <span class="share-ico">⬆︎</span> in Safari.</li><li>Scroll and tap <strong>Add to Home Screen</strong>.</li><li>Tap <strong>Add</strong>. It'll open like an app.</li></ol>
+      <button class="btn btn-block" id="iosClose">Got it</button>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
